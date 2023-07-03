@@ -28,7 +28,7 @@ const Projects = () => {
               <div className="project-info">
                 <h4>{project.title}</h4>
                 <div className="project-icon">
-                  <a href={project.github}>
+                  <a href={project.github} target="_blank">
                     <span className="project-icon">
                       <AiFillGithub />
                     </span>
