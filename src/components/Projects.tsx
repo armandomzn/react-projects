@@ -22,7 +22,7 @@ const Projects = () => {
           const image = project.image.fields.file.url;
           return (
             <article className="project" key={project.id}>
-              <a href={project.url_project}>
+              <a href={project.url_project} target="_blank">
                 <img src={image} alt={project.title} />
               </a>
               <div className="project-info">
