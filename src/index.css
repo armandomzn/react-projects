@@ -14,15 +14,15 @@ html {
 } /*16px*/
 
 :root {
-  --primary-100: #d9f0d3;
-  --primary-200: #b2e1a8;
-  --primary-300: #8cd17c;
-  --primary-400: #65c251;
-  --primary-500: #3fb325;
-  --primary-600: #328f1e;
-  --primary-700: #266b16;
-  --primary-800: #19480f;
-  --primary-900: #0d2407;
+  --primary-100: #cee5ef;
+  --primary-200: #9dccde;
+  --primary-300: #6db2ce;
+  --primary-400: #3c99bd;
+  --primary-500: #0b7fad;
+  --primary-600: #09668a;
+  --primary-700: #074c68;
+  --primary-800: #043345;
+  --primary-900: #021923;
   --react-color: #1399c4;
   --white: #fff;
   --black: #000;
@@ -164,6 +164,7 @@ React Projects
 }
 
 .loading-parent {
+  margin-top: 2rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -273,7 +274,7 @@ Projects
   transform: scale(1.03);
 }
 
-.project:hover .project-info h4{
+.project:hover .project-info h4 {
   font-weight: bold;
 }
 
@@ -305,13 +306,22 @@ Projects
 }
 
 .project-info .project-icon {
-  justify-self: center;
   font-size: 1.5rem;
   cursor: pointer;
   transition: color 0.2s ease-in-out;
   color: var(--react-color);
+  width: 100%;
+  transition: background 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+.project-icon a {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-info .project-icon:hover {
-  color: #89cce2;
+  color: var(--primary-700);
+  background: var(--primary-100);
+  border-radius: var(--border-radius);
 }
