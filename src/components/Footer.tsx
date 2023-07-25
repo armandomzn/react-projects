@@ -4,7 +4,7 @@ const Footer = () => {
       <p>
         made in méxico, copyright &copy; {new Date().getFullYear()}
         <span>
-          <a href="https://github.com/armandomzn">Armando Maldonado</a>
+          <a href="https://github.com/armandomzn" target="_blank">Armando Maldonado</a>
         </span>
       </p>
     </footer>
