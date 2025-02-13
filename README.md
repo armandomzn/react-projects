@@ -1,6 +1,7 @@
 ## React Projects
 
-![](./screenshots/react-projects.jpeg)
+![react-projects](https://github.com/user-attachments/assets/35067d8a-2b1d-4aac-8c4e-ae86503a4f98)
+
 
 ## Live Example
 
